@@ -14,24 +14,31 @@ html{
     margin: 0;
     padding: 0;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: var(--Cyan);
+}
 body{
-    background-color: var(--Very-dark-blue-B);
-    font-family: 'Outfit', sans-serif;
-    font-size: 16px;
-    color: var(--Soft-blue);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: var(--Very-dark-blue-B);
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    color: var(--Soft-blue);
     height: 600px;
     line-height: 1.5;
 
 }
 .card{
-    background-color: var(--Very-dark-blue-C); 
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: var(--Very-dark-blue-C); 
     height: 570px;
     padding: 0px 20px;
     width:340px;
@@ -47,13 +54,26 @@ main{
 .banner{
     margin-top: 20px;
 }
-.banner img{
+.banner .container{
     width: 300px;
     height: 300px;
     border-radius: 8px;
+
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+.banner .container:hover{
+    background-color: var(--Cyan);
+    background-image: url("images/icon-view.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner img:hover{
+    opacity: 0.4;
 }
 .content h1{
-    color: white;
     font-size:20px ;
     font-weight: 600;
     margin: 10px 0px;
@@ -97,6 +117,9 @@ margin:10px 0px;
     padding: 15px;
     font-weight: 300;
 }
-.author p > span{
+.author p > a{
     color: white;
+}
+.author a:hover{
+    color: var(--Cyan);
 }
