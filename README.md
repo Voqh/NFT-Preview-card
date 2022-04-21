@@ -26,7 +26,7 @@ Open the live URL to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](images/Screenshot%20NFT%20preview%20card%20component.png)
 
 ### Links
 

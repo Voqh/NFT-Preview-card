@@ -30,7 +30,7 @@ body{
     font-family: 'Outfit', sans-serif;
     font-size: 16px;
     color: var(--Soft-blue);
-    height: 600px;
+    height: 660px;
     line-height: 1.5;
 
 }
@@ -73,12 +73,12 @@ body{
 .banner img:hover{
     opacity: 0.4;
 }
-.content h1{
+.content p:nth-of-type(1){
     font-size:20px ;
     font-weight: 600;
     margin: 10px 0px;
 }
-.content p{
+.content p:nth-of-type(2){
     font-weight: 300;
     margin-top: 10px;
 }
