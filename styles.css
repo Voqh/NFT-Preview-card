@@ -73,7 +73,7 @@ main{
 .banner img:hover{
     opacity: 0.4;
 }
-.content h1{
+.content h2{
     font-size:20px ;
     font-weight: 600;
     margin: 10px 0px;
