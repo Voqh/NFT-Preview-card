@@ -45,7 +45,7 @@ body{
     border-radius: 15px;
 
 }
-main{
+.main-sec{
     border-radius: 12px;
     display: flex;
     flex-direction: column;
