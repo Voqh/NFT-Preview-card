@@ -123,3 +123,8 @@ margin:10px 0px;
 .author a:hover{
     color: var(--Cyan);
 }
+@media screen and (max-width:412px){
+    main{
+        height:600px
+    }
+}
