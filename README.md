@@ -31,7 +31,7 @@ Open the live URL to:
 ### Links
 
 - Solution URL: [https://github.com/Voqh/NFT-Preview-card.git]
-- Live Site URL: [Add live site URL here]
+- Live Site URL: [https://voqh.github.io/NFT-Preview-card/]
 
 ## My process
 
