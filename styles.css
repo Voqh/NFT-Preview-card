@@ -21,7 +21,7 @@ a{
 a:hover{
     color: var(--Cyan);
 }
-body{
+main{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,7 +30,7 @@ body{
     font-family: 'Outfit', sans-serif;
     font-size: 16px;
     color: var(--Soft-blue);
-    height: 660px;
+    height: 768px;
     line-height: 1.5;
 
 }
